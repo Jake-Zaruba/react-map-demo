@@ -4,6 +4,7 @@ import {
   Geography,
   ZoomableGroup,
   Marker,
+  Annotation,
 } from "react-simple-maps";
 import { wisconsinMap } from "./toposjon";
 import wisconsinCounties from "./us-county-boundaries.json";
@@ -65,35 +66,75 @@ export default function MapChart() {
         }
       });
     };
+
     return (
-      <Marker
-        onClick={handleCountyClick}
-        coordinates={[item[0].lon, item[0].lat]}
-      >
-        <circle r={12} fill="transparent" />
-        <text
-          x="8"
-          textAnchor="end"
-          alignmentBaseline="middle"
-          fill="black"
-          fontSize={5}
+      <>
+        <Annotation
+          subject={[-87.805486607, 43.0224568883]}
+          dx={-17}
+          dy={0}
+          connectorProps={{
+            stroke: "#88bbcc",
+            strokeWidth: 2,
+            strokeLinecap: "round",
+          }}
+        ></Annotation>
+        <Annotation
+          subject={[-87.767659612, 43.3656487303]}
+          dx={-17}
+          dy={0}
+          connectorProps={{
+            stroke: "#88bbcc",
+            strokeWidth: 2,
+            strokeLinecap: "round",
+          }}
+        ></Annotation>
+        <Marker
           onClick={handleCountyClick}
+          coordinates={[item[0].lon, item[0].lat]}
+          cursor="pointer"
         >
-          {item[1]}
-        </text>
-      </Marker>
+          <circle r={12} fill="transparent" />
+          <text
+            x="8"
+            textAnchor="end"
+            alignmentBaseline="middle"
+            fill={
+              item[1] === "Milwaukee" || item[1] === "Ozaukee"
+                ? "white"
+                : "black"
+            }
+            fontSize={4.6}
+            onClick={handleCountyClick}
+            cursor="pointer"
+            style={{ transform: "skew(-22deg, -3deg) rotate(3deg)" }}
+          >
+            {item[1]}
+          </text>
+        </Marker>
+      </>
     );
   });
 
   return (
-    <div style={{ display: "flex" }}>
+    <div
+      style={{
+        display: "flex",
+      }}
+    >
       <ComposableMap
         projectionConfig={{
           scale: 6500,
           rotation: [-11, 0, 0],
           center: [-89.7, 44.5],
         }}
-        style={{ width: "70vw", height: "100vh", transform: "skew:(20)" }}
+        style={{
+          width: "70vw",
+          height: "100vh",
+          transform: "skew(22deg, 3deg) rotate(-3.1deg)",
+          overflow: "visible",
+          zIndex: 1,
+        }}
       >
         <ZoomableGroup>
           <Geographies geography={wisconsinMap}>
@@ -127,22 +168,35 @@ export default function MapChart() {
           display: "flex",
           flexDirection: "column",
           alignItems: "center",
-          backgroundColor: "white",
+          backgroundColor: "#333",
           height: "100vh",
           width: "30vw",
+          zIndex: 2,
+          borderLeft: "2px solid #444",
         }}
       >
+        <h1
+          style={{
+            height: "3rem",
+            width: "auto",
+            margin: 0,
+            padding: "2rem",
+            color: "#eee",
+          }}
+        >
+          {selectedCounty}
+        </h1>
         <DashboardCard
           headerData={countyCybersecurityData.cybersecurityInvestment}
-          selectedCounty={selectedCounty}
+          title="Cybersecurity Investment"
         ></DashboardCard>
         <DashboardCard
           headerData={countyCybersecurityData.threatsDetected}
-          selectedCounty={selectedCounty}
+          title="Threats Detected"
         ></DashboardCard>
         <DashboardCard
           headerData={countyCybersecurityData.thresholdTriggers}
-          selectedCounty={selectedCounty}
+          title="Threshold Triggers"
         ></DashboardCard>
       </div>
     </div>

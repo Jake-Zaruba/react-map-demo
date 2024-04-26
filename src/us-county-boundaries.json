@@ -4582,7 +4582,7 @@
         "type": "Polygon"
       },
       "properties": {
-        "geo_point_2d": { "lon": -91.8994024936, "lat": 46.4641098796 },
+        "geo_point_2d": { "lon": -91.8794024936, "lat": 46.4041098796 },
         "statefp": "55",
         "countyfp": "031",
         "countyns": "01581075",
@@ -5889,7 +5889,7 @@
         "type": "Polygon"
       },
       "properties": {
-        "geo_point_2d": { "lon": -89.0448597042, "lat": 43.7203788931 },
+        "geo_point_2d": { "lon": -88.99, "lat": 43.7203788931 },
         "statefp": "55",
         "countyfp": "047",
         "countyns": "01581083",
@@ -11469,7 +11469,7 @@
         "type": "Polygon"
       },
       "properties": {
-        "geo_point_2d": { "lon": -88.2205851408, "lat": 44.9985323069 },
+        "geo_point_2d": { "lon": -88.2205851408, "lat": 44.9585323069 },
         "statefp": "55",
         "countyfp": "083",
         "countyns": "01581102",
@@ -23592,7 +23592,7 @@
         "type": "Polygon"
       },
       "properties": {
-        "geo_point_2d": { "lon": -87.6531182363, "lat": 42.5785041032 },
+        "geo_point_2d": { "lon": -87.9831182363, "lat": 42.5785041032 },
         "statefp": "55",
         "countyfp": "059",
         "countyns": "01581089",
@@ -25854,7 +25854,7 @@
         "type": "Polygon"
       },
       "properties": {
-        "geo_point_2d": { "lon": -92.0015496858, "lat": 44.62291654 },
+        "geo_point_2d": { "lon": -91.9115496858, "lat": 44.63291654 },
         "statefp": "55",
         "countyfp": "091",
         "countyns": "01581106",
@@ -28238,7 +28238,7 @@
         "type": "Polygon"
       },
       "properties": {
-        "geo_point_2d": { "lon": -88.7100058635, "lat": 45.0043671834 },
+        "geo_point_2d": { "lon": -88.6600058635, "lat": 45.0243671834 },
         "statefp": "55",
         "countyfp": "078",
         "countyns": "01581099",
@@ -28556,7 +28556,7 @@
         "type": "Polygon"
       },
       "properties": {
-        "geo_point_2d": { "lon": -87.028957047, "lat": 45.0326297438 },
+        "geo_point_2d": { "lon": -87.229957047, "lat": 45.0326297438 },
         "statefp": "55",
         "countyfp": "029",
         "countyns": "01581074",
@@ -30325,7 +30325,7 @@
         "type": "Polygon"
       },
       "properties": {
-        "geo_point_2d": { "lon": -90.5645053525, "lat": 46.7007124229 },
+        "geo_point_2d": { "lon": -90.6645053525, "lat": 46.1507124229 },
         "statefp": "55",
         "countyfp": "003",
         "countyns": "01581061",
@@ -33738,7 +33738,7 @@
         "type": "Polygon"
       },
       "properties": {
-        "geo_point_2d": { "lon": -88.2307624873, "lat": 43.3684799638 },
+        "geo_point_2d": { "lon": -88.1357624873, "lat": 43.3984799638 },
         "statefp": "55",
         "countyfp": "131",
         "countyns": "01581125",
@@ -35452,7 +35452,7 @@
         "type": "Polygon"
       },
       "properties": {
-        "geo_point_2d": { "lon": -88.464932258, "lat": 44.4160919594 },
+        "geo_point_2d": { "lon": -88.394932258, "lat": 44.4160919594 },
         "statefp": "55",
         "countyfp": "087",
         "countyns": "01581104",
@@ -38951,7 +38951,7 @@
         "type": "Polygon"
       },
       "properties": {
-        "geo_point_2d": { "lon": -90.264452745, "lat": 46.3170555846 },
+        "geo_point_2d": { "lon": -90.264452745, "lat": 46.2670555846 },
         "statefp": "55",
         "countyfp": "051",
         "countyns": "01581085",
@@ -44881,7 +44881,7 @@
         "type": "Polygon"
       },
       "properties": {
-        "geo_point_2d": { "lon": -91.1806847226, "lat": 46.6354343394 },
+        "geo_point_2d": { "lon": -91.1806847226, "lat": 46.4354343394 },
         "statefp": "55",
         "countyfp": "007",
         "countyns": "01581063",
@@ -46506,7 +46506,7 @@
         "type": "Polygon"
       },
       "properties": {
-        "geo_point_2d": { "lon": -88.7703948628, "lat": 45.6673207505 },
+        "geo_point_2d": { "lon": -88.7303948628, "lat": 45.6073207505 },
         "statefp": "55",
         "countyfp": "041",
         "countyns": "01581080",
@@ -49029,7 +49029,7 @@
         "type": "Polygon"
       },
       "properties": {
-        "geo_point_2d": { "lon": -87.9928589857, "lat": 44.47432886 },
+        "geo_point_2d": { "lon": -87.9928589857, "lat": 44.39432886 },
         "statefp": "55",
         "countyfp": "009",
         "countyns": "01581064",
@@ -50512,7 +50512,7 @@
         "type": "Polygon"
       },
       "properties": {
-        "geo_point_2d": { "lon": -90.4614492328, "lat": 45.6803836844 },
+        "geo_point_2d": { "lon": -90.3814492328, "lat": 45.6503836844 },
         "statefp": "55",
         "countyfp": "099",
         "countyns": "01581110",
@@ -52078,7 +52078,7 @@
         "type": "Polygon"
       },
       "properties": {
-        "geo_point_2d": { "lon": -89.1715652079, "lat": 42.6712233677 },
+        "geo_point_2d": { "lon": -89.0905652079, "lat": 42.6712233677 },
         "statefp": "55",
         "countyfp": "105",
         "countyns": "01581113",
@@ -53156,7 +53156,7 @@
         "type": "Polygon"
       },
       "properties": {
-        "geo_point_2d": { "lon": -87.5123716853, "lat": 44.1106889273 },
+        "geo_point_2d": { "lon": -87.7623716853, "lat": 44.1106889273 },
         "statefp": "55",
         "countyfp": "071",
         "countyns": "01581095",
@@ -54410,7 +54410,7 @@
         "type": "Polygon"
       },
       "properties": {
-        "geo_point_2d": { "lon": -90.8343823934, "lat": 43.5938619334 },
+        "geo_point_2d": { "lon": -90.8343823934, "lat": 43.5738619334 },
         "statefp": "55",
         "countyfp": "123",
         "countyns": "01581121",
@@ -56523,7 +56523,7 @@
         "type": "Polygon"
       },
       "properties": {
-        "geo_point_2d": { "lon": -90.1317220132, "lat": 42.6604993637 },
+        "geo_point_2d": { "lon": -90.0917220132, "lat": 42.6604993637 },
         "statefp": "55",
         "countyfp": "065",
         "countyns": "01581092",
@@ -58831,7 +58831,7 @@
         "type": "Polygon"
       },
       "properties": {
-        "geo_point_2d": { "lon": -91.3584515501, "lat": 44.3039525837 },
+        "geo_point_2d": { "lon": -91.2584515501, "lat": 44.1639525837 },
         "statefp": "55",
         "countyfp": "121",
         "countyns": "01581120",
@@ -61935,7 +61935,7 @@
         "type": "Polygon"
       },
       "properties": {
-        "geo_point_2d": { "lon": -88.6446587541, "lat": 44.0688768938 },
+        "geo_point_2d": { "lon": -88.5846587541, "lat": 44.0688768938 },
         "statefp": "55",
         "countyfp": "139",
         "countyns": "01581129",
@@ -63729,7 +63729,7 @@
         "type": "Polygon"
       },
       "properties": {
-        "geo_point_2d": { "lon": -87.6347744896, "lat": 43.7197073785 },
+        "geo_point_2d": { "lon": -87.8747744896, "lat": 43.7197073785 },
         "statefp": "55",
         "countyfp": "117",
         "countyns": "01581118",
@@ -67515,7 +67515,7 @@
         "type": "Polygon"
       },
       "properties": {
-        "geo_point_2d": { "lon": -88.5419040709, "lat": 42.6684869829 },
+        "geo_point_2d": { "lon": -88.5019040709, "lat": 42.6784869829 },
         "statefp": "55",
         "countyfp": "127",
         "countyns": "01581123",
@@ -68801,7 +68801,7 @@
         "type": "Polygon"
       },
       "properties": {
-        "geo_point_2d": { "lon": -90.9310479025, "lat": 43.2394623005 },
+        "geo_point_2d": { "lon": -90.8410479025, "lat": 43.2394623005 },
         "statefp": "55",
         "countyfp": "023",
         "countyns": "01581071",
@@ -73422,7 +73422,7 @@
         "type": "Polygon"
       },
       "properties": {
-        "geo_point_2d": { "lon": -89.7022219559, "lat": 42.6800090555 },
+        "geo_point_2d": { "lon": -89.6022219559, "lat": 42.6800090555 },
         "statefp": "55",
         "countyfp": "045",
         "countyns": "01581082",
@@ -83036,7 +83036,7 @@
         "type": "Polygon"
       },
       "properties": {
-        "geo_point_2d": { "lon": -92.4413959911, "lat": 45.4614199106 },
+        "geo_point_2d": { "lon": -92.4413959911, "lat": 45.4214199106 },
         "statefp": "55",
         "countyfp": "095",
         "countyns": "01581108",
@@ -87131,7 +87131,7 @@
         "type": "Polygon"
       },
       "properties": {
-        "geo_point_2d": { "lon": -88.00222052, "lat": 45.3508956087 },
+        "geo_point_2d": { "lon": -88.02222052, "lat": 45.3508956087 },
         "statefp": "55",
         "countyfp": "075",
         "countyns": "01581097",
@@ -91383,7 +91383,7 @@
         "type": "Polygon"
       },
       "properties": {
-        "geo_point_2d": { "lon": -91.1151957557, "lat": 43.9065519065 },
+        "geo_point_2d": { "lon": -91.0801957557, "lat": 43.9065519065 },
         "statefp": "55",
         "countyfp": "063",
         "countyns": "01581091",
@@ -93831,7 +93831,7 @@
         "type": "Polygon"
       },
       "properties": {
-        "geo_point_2d": { "lon": -87.6960810134, "lat": 42.7511742879 },
+        "geo_point_2d": { "lon": -88.02, "lat": 42.7511742879 },
         "statefp": "55",
         "countyfp": "101",
         "countyns": "01581111",
@@ -95421,7 +95421,7 @@
         "type": "Polygon"
       },
       "properties": {
-        "geo_point_2d": { "lon": -89.398748852, "lat": 43.8195818941 },
+        "geo_point_2d": { "lon": -89.348748852, "lat": 43.8195818941 },
         "statefp": "55",
         "countyfp": "077",
         "countyns": "01581098",
@@ -98547,7 +98547,7 @@
         "type": "Polygon"
       },
       "properties": {
-        "geo_point_2d": { "lon": -88.8075067352, "lat": 43.4162950523 },
+        "geo_point_2d": { "lon": -88.7075067352, "lat": 43.4162950523 },
         "statefp": "55",
         "countyfp": "027",
         "countyns": "01581073",
@@ -99724,7 +99724,7 @@
         "type": "Polygon"
       },
       "properties": {
-        "geo_point_2d": { "lon": -90.4294834242, "lat": 43.3756405374 },
+        "geo_point_2d": { "lon": -90.4004834242, "lat": 43.3656405374 },
         "statefp": "55",
         "countyfp": "103",
         "countyns": "01581112",
@@ -101856,7 +101856,7 @@
         "type": "Polygon"
       },
       "properties": {
-        "geo_point_2d": { "lon": -87.3072532822, "lat": 44.5059941907 },
+        "geo_point_2d": { "lon": -87.5472532822, "lat": 44.5759941907 },
         "statefp": "55",
         "countyfp": "061",
         "countyns": "01581090",

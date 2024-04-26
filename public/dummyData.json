@@ -3,7 +3,7 @@
     "countyName": "Shawano",
     "cybersecurityInvestment": "$20,500",
     "threatsDetected": 1,
-    "thresholdTriggers": 1
+    "thresholdTriggers": 3
   },
   {
     "countyName": "Calumet",
@@ -15,420 +15,420 @@
     "countyName": "Douglas",
     "cybersecurityInvestment": "$20,500",
     "threatsDetected": 3,
-    "thresholdTriggers": 3
+    "thresholdTriggers": 5
   },
   {
     "countyName": "Green Lake",
     "cybersecurityInvestment": "$20,500",
     "threatsDetected": 4,
-    "thresholdTriggers": 4
+    "thresholdTriggers": 8
   },
   {
     "countyName": "Dane",
     "cybersecurityInvestment": "$20,500",
     "threatsDetected": 5,
-    "thresholdTriggers": 5
+    "thresholdTriggers": 2
   },
   {
     "countyName": "Washburn",
     "cybersecurityInvestment": "$20,500",
     "threatsDetected": 6,
-    "thresholdTriggers": 6
+    "thresholdTriggers": 5
   },
   {
     "countyName": "Oconto",
     "cybersecurityInvestment": "$20,500",
     "threatsDetected": 7,
-    "thresholdTriggers": 7
+    "thresholdTriggers": 1
   },
   {
     "countyName": "Columbia",
     "cybersecurityInvestment": "$20,500",
     "threatsDetected": 8,
-    "thresholdTriggers": 8
+    "thresholdTriggers": 9
   },
   {
     "countyName": "Clark",
     "cybersecurityInvestment": "$20,500",
     "threatsDetected": 9,
-    "thresholdTriggers": 9
+    "thresholdTriggers": 3
   },
   {
     "countyName": "Juneau",
     "cybersecurityInvestment": "$20,500",
     "threatsDetected": 10,
-    "thresholdTriggers": 10
+    "thresholdTriggers": 6
   },
   {
     "countyName": "Rusk",
     "cybersecurityInvestment": "$20,500",
     "threatsDetected": 11,
-    "thresholdTriggers": 11
+    "thresholdTriggers": 3
   },
   {
     "countyName": "Waukesha",
     "cybersecurityInvestment": "$20,500",
     "threatsDetected": 12,
-    "thresholdTriggers": 12
+    "thresholdTriggers": 2
   },
   {
     "countyName": "Jackson",
     "cybersecurityInvestment": "$20,500",
     "threatsDetected": 13,
-    "thresholdTriggers": 13
+    "thresholdTriggers": 6
   },
   {
     "countyName": "Kenosha",
     "cybersecurityInvestment": "$20,500",
     "threatsDetected": 14,
-    "thresholdTriggers": 14
+    "thresholdTriggers": 3
   },
   {
     "countyName": "Marathon",
     "cybersecurityInvestment": "$20,500",
     "threatsDetected": 15,
-    "thresholdTriggers": 15
+    "thresholdTriggers": 6
   },
   {
     "countyName": "Pepin",
     "cybersecurityInvestment": "$20,500",
     "threatsDetected": 16,
-    "thresholdTriggers": 16
+    "thresholdTriggers": 3
   },
   {
     "countyName": "Iowa",
     "cybersecurityInvestment": "$20,500",
     "threatsDetected": 17,
-    "thresholdTriggers": 17
+    "thresholdTriggers": 4
   },
   {
     "countyName": "Menominee",
     "cybersecurityInvestment": "$20,500",
     "threatsDetected": 18,
-    "thresholdTriggers": 18
+    "thresholdTriggers": 5
   },
   {
     "countyName": "Door",
     "cybersecurityInvestment": "$20,500",
     "threatsDetected": 19,
-    "thresholdTriggers": 19
+    "thresholdTriggers": 8
   },
   {
     "countyName": "Ashland",
     "cybersecurityInvestment": "$20,500",
     "threatsDetected": 20,
-    "thresholdTriggers": 20
+    "thresholdTriggers": 9
   },
   {
     "countyName": "Vilas",
     "cybersecurityInvestment": "$20,500",
     "threatsDetected": 21,
-    "thresholdTriggers": 21
+    "thresholdTriggers": 7
   },
   {
     "countyName": "Washington",
     "cybersecurityInvestment": "$20,500",
     "threatsDetected": 22,
-    "thresholdTriggers": 22
+    "thresholdTriggers": 1
   },
   {
     "countyName": "Outagamie",
     "cybersecurityInvestment": "$20,500",
     "threatsDetected": 23,
-    "thresholdTriggers": 23
+    "thresholdTriggers": 4
   },
   {
     "countyName": "Iron",
     "cybersecurityInvestment": "$20,500",
     "threatsDetected": 24,
-    "thresholdTriggers": 24
+    "thresholdTriggers": 7
   },
   {
     "countyName": "Buffalo",
     "cybersecurityInvestment": "$20,500",
     "threatsDetected": 25,
-    "thresholdTriggers": 25
+    "thresholdTriggers": 9
   },
   {
     "countyName": "Langlade",
     "cybersecurityInvestment": "$20,500",
     "threatsDetected": 26,
-    "thresholdTriggers": 26
+    "thresholdTriggers": 4
   },
   {
     "countyName": "Oneida",
     "cybersecurityInvestment": "$20,500",
     "threatsDetected": 27,
-    "thresholdTriggers": 27
+    "thresholdTriggers": 2
   },
   {
     "countyName": "Bayfield",
     "cybersecurityInvestment": "$20,500",
     "threatsDetected": 28,
-    "thresholdTriggers": 28
+    "thresholdTriggers": 8
   },
   {
     "countyName": "Forest",
     "cybersecurityInvestment": "$20,500",
     "threatsDetected": 29,
-    "thresholdTriggers": 29
+    "thresholdTriggers": 6
   },
   {
     "countyName": "Barron",
     "cybersecurityInvestment": "$20,500",
     "threatsDetected": 30,
-    "thresholdTriggers": 30
+    "thresholdTriggers": 7
   },
   {
     "countyName": "Brown",
     "cybersecurityInvestment": "$20,500",
     "threatsDetected": 31,
-    "thresholdTriggers": 31
+    "thresholdTriggers": 9
   },
   {
     "countyName": "Price",
     "cybersecurityInvestment": "$20,500",
     "threatsDetected": 32,
-    "thresholdTriggers": 32
+    "thresholdTriggers": 2
   },
   {
     "countyName": "Rock",
     "cybersecurityInvestment": "$20,500",
     "threatsDetected": 33,
-    "thresholdTriggers": 33
+    "thresholdTriggers": 4
   },
   {
     "countyName": "Manitowoc",
     "cybersecurityInvestment": "$20,500",
     "threatsDetected": 34,
-    "thresholdTriggers": 34
+    "thresholdTriggers": 3
   },
   {
     "countyName": "Vernon",
     "cybersecurityInvestment": "$20,500",
     "threatsDetected": 35,
-    "thresholdTriggers": 35
+    "thresholdTriggers": 5
   },
   {
     "countyName": "Waushara",
     "cybersecurityInvestment": "$20,500",
     "threatsDetected": 36,
-    "thresholdTriggers": 36
+    "thresholdTriggers": 1
   },
   {
     "countyName": "Lafayette",
     "cybersecurityInvestment": "$20,500",
     "threatsDetected": 37,
-    "thresholdTriggers": 37
+    "thresholdTriggers": 2
   },
   {
     "countyName": "Trempealeau",
     "cybersecurityInvestment": "$20,500",
     "threatsDetected": 38,
-    "thresholdTriggers": 38
+    "thresholdTriggers": 1
   },
   {
     "countyName": "Burnett",
     "cybersecurityInvestment": "$20,500",
     "threatsDetected": 39,
-    "thresholdTriggers": 39
+    "thresholdTriggers": 5
   },
   {
     "countyName": "Winnebago",
     "cybersecurityInvestment": "$20,500",
     "threatsDetected": 40,
-    "thresholdTriggers": 40
+    "thresholdTriggers": 6
   },
   {
     "countyName": "Ozaukee",
     "cybersecurityInvestment": "$20,500",
     "threatsDetected": 41,
-    "thresholdTriggers": 41
+    "thresholdTriggers": 7
   },
   {
     "countyName": "Sheboygan",
     "cybersecurityInvestment": "$20,500",
     "threatsDetected": 42,
-    "thresholdTriggers": 42
+    "thresholdTriggers": 4
   },
   {
     "countyName": "Adams",
     "cybersecurityInvestment": "$20,500",
     "threatsDetected": 43,
-    "thresholdTriggers": 43
+    "thresholdTriggers": 2
   },
   {
     "countyName": "Walworth",
     "cybersecurityInvestment": "$20,500",
     "threatsDetected": 44,
-    "thresholdTriggers": 44
+    "thresholdTriggers": 1
   },
   {
     "countyName": "Crawford",
     "cybersecurityInvestment": "$20,500",
     "threatsDetected": 45,
-    "thresholdTriggers": 45
+    "thresholdTriggers": 3
   },
   {
     "countyName": "Wood",
     "cybersecurityInvestment": "$20,500",
     "threatsDetected": 46,
-    "thresholdTriggers": 46
+    "thresholdTriggers": 6
   },
   {
     "countyName": "Sauk",
     "cybersecurityInvestment": "$20,500",
     "threatsDetected": 47,
-    "thresholdTriggers": 47
+    "thresholdTriggers": 4
   },
   {
     "countyName": "Green",
     "cybersecurityInvestment": "$20,500",
     "threatsDetected": 48,
-    "thresholdTriggers": 48
+    "thresholdTriggers": 7
   },
   {
     "countyName": "Florence",
     "cybersecurityInvestment": "$20,500",
     "threatsDetected": 49,
-    "thresholdTriggers": 49
+    "thresholdTriggers": 9
   },
   {
     "countyName": "Portage",
     "cybersecurityInvestment": "$20,500",
     "threatsDetected": 50,
-    "thresholdTriggers": 50
+    "thresholdTriggers": 3
   },
   {
     "countyName": "St. Croix",
     "cybersecurityInvestment": "$20,500",
     "threatsDetected": 51,
-    "thresholdTriggers": 51
+    "thresholdTriggers": 1
   },
   {
     "countyName": "Milwaukee",
     "cybersecurityInvestment": "$20,500",
     "threatsDetected": 52,
-    "thresholdTriggers": 52
+    "thresholdTriggers": 4
   },
   {
     "countyName": "Pierce",
     "cybersecurityInvestment": "$20,500",
     "threatsDetected": 53,
-    "thresholdTriggers": 53
+    "thresholdTriggers": 6
   },
   {
     "countyName": "Sawyer",
     "cybersecurityInvestment": "$20,500",
     "threatsDetected": 54,
-    "thresholdTriggers": 54
+    "thresholdTriggers": 2
   },
   {
     "countyName": "Polk",
     "cybersecurityInvestment": "$20,500",
     "threatsDetected": 55,
-    "thresholdTriggers": 55
+    "thresholdTriggers": 7
   },
   {
     "countyName": "Lincoln",
     "cybersecurityInvestment": "$20,500",
     "threatsDetected": 56,
-    "thresholdTriggers": 56
+    "thresholdTriggers": 4
   },
   {
     "countyName": "Marinette",
     "cybersecurityInvestment": "$20,500",
     "threatsDetected": 57,
-    "thresholdTriggers": 57
+    "thresholdTriggers": 3
   },
   {
     "countyName": "Grant",
     "cybersecurityInvestment": "$20,500",
     "threatsDetected": 58,
-    "thresholdTriggers": 58
+    "thresholdTriggers": 2
   },
   {
     "countyName": "La Crosse",
     "cybersecurityInvestment": "$20,500",
     "threatsDetected": 59,
-    "thresholdTriggers": 59
+    "thresholdTriggers": 6
   },
   {
     "countyName": "Waupaca",
     "cybersecurityInvestment": "$20,500",
     "threatsDetected": 60,
-    "thresholdTriggers": 60
+    "thresholdTriggers": 2
   },
   {
     "countyName": "Racine",
     "cybersecurityInvestment": "$20,500",
     "threatsDetected": 61,
-    "thresholdTriggers": 61
+    "thresholdTriggers": 1
   },
   {
     "countyName": "Marquette",
     "cybersecurityInvestment": "$20,500",
     "threatsDetected": 62,
-    "thresholdTriggers": 62
+    "thresholdTriggers": 6
   },
   {
     "countyName": "Dunn",
     "cybersecurityInvestment": "$20,500",
     "threatsDetected": 63,
-    "thresholdTriggers": 63
+    "thresholdTriggers": 8
   },
   {
     "countyName": "Dodge",
     "cybersecurityInvestment": "$20,500",
     "threatsDetected": 64,
-    "thresholdTriggers": 64
+    "thresholdTriggers": 9
   },
   {
     "countyName": "Richland",
     "cybersecurityInvestment": "$20,500",
     "threatsDetected": 65,
-    "thresholdTriggers": 65
+    "thresholdTriggers": 4
   },
   {
     "countyName": "Fond du Lac",
     "cybersecurityInvestment": "$20,500",
     "threatsDetected": 66,
-    "thresholdTriggers": 66
+    "thresholdTriggers": 3
   },
   {
     "countyName": "Kewaunee",
     "cybersecurityInvestment": "$20,500",
     "threatsDetected": 67,
-    "thresholdTriggers": 67
+    "thresholdTriggers": 2
   },
   {
     "countyName": "Eau Claire",
     "cybersecurityInvestment": "$20,500",
     "threatsDetected": 68,
-    "thresholdTriggers": 68
+    "thresholdTriggers": 7
   },
   {
     "countyName": "Taylor",
     "cybersecurityInvestment": "$20,500",
     "threatsDetected": 69,
-    "thresholdTriggers": 69
+    "thresholdTriggers": 5
   },
   {
     "countyName": "Jefferson",
     "cybersecurityInvestment": "$20,500",
     "threatsDetected": 70,
-    "thresholdTriggers": 70
+    "thresholdTriggers": 3
   },
   {
     "countyName": "Monroe",
     "cybersecurityInvestment": "$20,500",
     "threatsDetected": 71,
-    "thresholdTriggers": 71
+    "thresholdTriggers": 8
   },
   {
     "countyName": "Chippewa",
     "cybersecurityInvestment": "$20,500",
     "threatsDetected": 72,
-    "thresholdTriggers": 72
+    "thresholdTriggers": 6
   }
 ]
