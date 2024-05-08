@@ -1,0 +1,21 @@
+.metrics-btn {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  font: inherit;
+  font-size: 1.4rem;
+  text-decoration: none;
+  border: none;
+  border-radius: 6px;
+  background-color: lightblue;
+  color: #333;
+  padding: 1rem;
+  cursor: pointer;
+  outline: 2px solid #88bbcc;
+  transition: all 0.3s;
+}
+
+.metrics-btn:hover {
+  background-color: #eee;
+  outline: 2px solid #333;
+}

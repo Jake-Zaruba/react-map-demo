@@ -1,4 +1,3 @@
-import { useEffect, useState } from "react";
 import "./dashboardCard.css";
 
 export default function DashboardCard({ headerData, selectedCounty, title }) {
@@ -10,6 +9,7 @@ export default function DashboardCard({ headerData, selectedCounty, title }) {
           color: "#333",
           fontSize: "2rem",
           textAlign: "center",
+          fontWeight: "400",
         }}
       >
         {title}

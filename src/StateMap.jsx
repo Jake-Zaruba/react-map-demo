@@ -6,33 +6,32 @@ import {
   Marker,
   Annotation,
 } from "react-simple-maps";
+import "./stateMap.css";
 import { wisconsinMap } from "./toposjon";
 import wisconsinCounties from "./us-county-boundaries.json";
 import DashboardCard from "./DashboardCard";
-import { useState, useEffect } from "react";
+import { useState } from "react";
+import { useLoaderData, useSearchParams, Link } from "react-router-dom";
+import KeyboardDoubleArrowRightOutlinedIcon from "@mui/icons-material/KeyboardDoubleArrowRightOutlined";
 
-export default function MapChart() {
-  const [cybersecurityData, setCybersecurityData] = useState(null);
+export async function loader() {
+  const response = await fetch("dummyData.json")
+    .then((res) => res.json())
+    .then((data) => data)
+    .catch((error) => console.log(error));
+  return response;
+}
+
+export default function StateMap() {
+  const [searchParams, setSearchParams] = useSearchParams();
+  const cybersecurityData = useLoaderData();
   const [countyCybersecurityData, setCountyCybersecurityData] = useState({
     cybersecurityInvestment: null,
     threatsDetected: null,
     thresholdTriggers: null,
     countyName: "",
   });
-  const [isLoading, setIsLoading] = useState(false);
   const [selectedCounty, setSelectedCounty] = useState("");
-
-  useEffect(() => {
-    setIsLoading(true);
-    const handleSetCybersecurityData = async () => {
-      const response = await fetch("dummyData.json")
-        .then((res) => res.json())
-        .then((data) => setCybersecurityData(data))
-        .catch((error) => console.log(error));
-    };
-    setIsLoading((prev) => !prev);
-    handleSetCybersecurityData();
-  }, []);
 
   const countyData = Object.entries(wisconsinCounties)[1][1].map((item) => {
     return [item.properties.geo_point_2d, item.properties.name];
@@ -53,6 +52,13 @@ export default function MapChart() {
   const markers = countyData.map((item) => {
     const handleCountyClick = () => {
       setSelectedCounty(item[1]);
+      setSearchParams(
+        (prev) => {
+          prev.set("county", item[1]);
+          return prev;
+        },
+        { replace: true }
+      );
       cybersecurityData.filter((item2) => {
         if (item2.countyName === item[1]) {
           setCountyCybersecurityData((prev) => {
@@ -107,7 +113,7 @@ export default function MapChart() {
             fontSize={4.6}
             onClick={handleCountyClick}
             cursor="pointer"
-            style={{ transform: "skew(-22deg, -3deg) rotate(3deg)" }}
+            style={{ transform: "skew(-23deg, -3deg) rotate(3deg)" }}
           >
             {item[1]}
           </text>
@@ -126,12 +132,12 @@ export default function MapChart() {
         projectionConfig={{
           scale: 6500,
           rotation: [-11, 0, 0],
-          center: [-89.7, 44.5],
+          center: [-89.9, 44.6],
         }}
         style={{
           width: "70vw",
-          height: "100vh",
-          transform: "skew(22deg, 3deg) rotate(-3.1deg)",
+          height: "calc(100vh - 4rem)",
+          transform: "skew(23deg, 3deg) rotate(-3.1deg)",
           overflow: "visible",
           zIndex: 1,
         }}
@@ -168,24 +174,34 @@ export default function MapChart() {
           display: "flex",
           flexDirection: "column",
           alignItems: "center",
-          backgroundColor: "#333",
-          height: "100vh",
+          backgroundColor: "#eee",
+          height: "calc(100vh - 4rem)",
           width: "30vw",
           zIndex: 2,
           borderLeft: "2px solid #444",
         }}
       >
-        <h1
+        <div
           style={{
-            height: "3rem",
-            width: "auto",
-            margin: 0,
-            padding: "2rem",
-            color: "#eee",
+            width: "100%",
+            // borderTop: "2px solid #333",
+            margin: "0rem 0rem 3rem 0rem",
+            textAlign: "center",
+            padding: "1rem",
+            boxShadow: "0px 2px 12px -6px #333",
           }}
         >
-          {selectedCounty}
-        </h1>
+          <h1
+            style={{
+              margin: 0,
+              color: "#333",
+              fontWeight: "500",
+            }}
+          >
+            {selectedCounty === "" ? "Summary" : selectedCounty + " County"}
+          </h1>
+        </div>
+
         <DashboardCard
           headerData={countyCybersecurityData.cybersecurityInvestment}
           title="Cybersecurity Investment"
@@ -198,6 +214,9 @@ export default function MapChart() {
           headerData={countyCybersecurityData.thresholdTriggers}
           title="Threshold Triggers"
         ></DashboardCard>
+        <Link to={`/county/${selectedCounty}`} className="metrics-btn">
+          Full overview {<KeyboardDoubleArrowRightOutlinedIcon />}
+        </Link>
       </div>
     </div>
   );
