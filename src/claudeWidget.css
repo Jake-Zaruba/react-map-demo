@@ -1,0 +1,45 @@
+.widget-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  border: lightblue solid 2px;
+  height: 40rem;
+  width: 30rem;
+  padding: 1rem;
+  background-color: #eee;
+  border: 2px solid lightblue;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+  border-bottom-right-radius: 12px;
+  box-shadow: 0px 2px 6px lightblue;
+  outline: 2px solid #eee;
+  margin: 2rem;
+  z-index: 10;
+  transition: all 0.3s;
+}
+
+.received-message,
+.sent-message {
+  height: 3rem;
+  width: 80%;
+  border: none;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+  padding: 0.6rem;
+}
+
+.received-message {
+  background-color: #b0b0b0;
+  border-bottom-left-radius: 12px;
+  resize: none;
+  align-self: flex-end;
+}
+
+.sent-message {
+  background-color: lightblue;
+  border-bottom-right-radius: 12px;
+  resize: none;
+}

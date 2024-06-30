@@ -4,12 +4,12 @@ import { NavLink, Outlet } from "react-router-dom";
 export default function Layout() {
   return (
     <>
-      <nav>
+      <nav style={{ zIndex: 300, position: "sticky" }}>
         <NavLink
           style={({ isActive }) => {
             return isActive
               ? { color: "#88bbcc", textDecoration: "none" }
-              : { color: "#333", textDecoration: "none" };
+              : { color: "#eee", textDecoration: "none" };
           }}
           className={({ isActive, isPending }) =>
             isPending ? "pending" : isActive ? "active" : ""
@@ -22,7 +22,7 @@ export default function Layout() {
           style={({ isActive }) => {
             return isActive
               ? { color: "#88bbcc", textDecoration: "none" }
-              : { color: "#333", textDecoration: "none" };
+              : { color: "#eee", textDecoration: "none" };
           }}
           className={({ isActive, isPending }) =>
             isPending ? "pending" : isActive ? "active" : ""

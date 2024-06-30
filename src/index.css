@@ -23,6 +23,7 @@ body {
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
+  overflow-x: hidden;
 }
 
 h1 {
@@ -42,7 +43,8 @@ nav {
   font-size: 1.8rem;
   padding-left: 1.2rem;
   height: 4rem;
-  background-color: #eee;
+  background-color: #333;
+  box-shadow: 0px 1px 8px #eeeeee48;
 }
 
 nav:hover {

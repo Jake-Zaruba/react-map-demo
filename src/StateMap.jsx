@@ -13,6 +13,7 @@ import DashboardCard from "./DashboardCard";
 import { useState } from "react";
 import { useLoaderData, useSearchParams, Link } from "react-router-dom";
 import KeyboardDoubleArrowRightOutlinedIcon from "@mui/icons-material/KeyboardDoubleArrowRightOutlined";
+import ClaudeWidget from "./ClaudeWidget";
 
 export async function loader() {
   const response = await fetch("dummyData.json")
@@ -128,6 +129,8 @@ export default function StateMap() {
         display: "flex",
       }}
     >
+      <ClaudeWidget />
+
       <ComposableMap
         projectionConfig={{
           scale: 6500,
