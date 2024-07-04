@@ -31,10 +31,6 @@ h1 {
   line-height: 1.1;
 }
 
-:focus {
-  display: none;
-}
-
 nav {
   display: flex;
   align-items: center;
@@ -49,6 +45,14 @@ nav {
 
 nav:hover {
   color: black;
+}
+
+textarea {
+  font: inherit;
+}
+
+:focus {
+  outline: 2px solid lightblue;
 }
 
 .active {

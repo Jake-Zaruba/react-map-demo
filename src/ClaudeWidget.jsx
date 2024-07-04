@@ -5,9 +5,24 @@ import HighlightOffOutlinedIcon from "@mui/icons-material/HighlightOffOutlined";
 export default function ClaudeWidget() {
   const [userText, setUserText] = useState("");
   const [chatHistory, setChatHistory] = useState([]);
+  const [widgetOpen, setWidgetOpen] = useState(true);
+  const handleCloseChatWidget = () => {
+    setWidgetOpen((prev) => !prev);
+  };
+  function handleSubmitChat(e) {
+    e.preventDefault();
+    setChatHistory((prev) => [...prev, userText]);
+    setUserText("");
+  }
+
+  const displayUserChats = chatHistory.map((item) => {
+    return <p className="sent-message">{item}</p>;
+  });
 
   return (
-    <div className="widget-container">
+    <div
+      className={widgetOpen ? "widget-container" : "closed-widget-container"}
+    >
       <HighlightOffOutlinedIcon
         style={{
           color: "#333",
@@ -17,42 +32,59 @@ export default function ClaudeWidget() {
           right: 5,
         }}
         fontSize="large"
+        onClick={handleCloseChatWidget}
       />
       <div
-        style={{
-          display: "flex",
-          flexDirection: "column",
-          gap: "1rem",
-          marginTop: "3rem",
-        }}
+        style={
+          widgetOpen
+            ? {
+                display: "flex",
+                flexDirection: "column",
+                gap: "1rem",
+                marginTop: "3rem",
+                transitionBehavior: "allow-discrete",
+              }
+            : { display: "none", transitionBehavior: "allow-discrete" }
+        }
       >
-        <textarea className="sent-message"></textarea>
-        <textarea className="sent-message"></textarea>
+        {displayUserChats}
       </div>
       <div
-        style={{
-          display: "flex",
-          flexDirection: "column",
-          gap: "1rem",
-        }}
+        style={
+          widgetOpen
+            ? {
+                display: "flex",
+                flexDirection: "column",
+                gap: "1rem",
+                marginTop: "0rem",
+                transitionBehavior: "allow-discrete",
+              }
+            : { display: "none", transitionBehavior: "allow-discrete" }
+        }
       >
-        <textarea className="received-message">{userText}</textarea>
-        <textarea className="received-message"></textarea>
+        <textarea className="received-message">{chatHistory}</textarea>
+        <textarea className="received-message">{chatHistory}</textarea>
       </div>
-
-      <input
-        type="text"
-        value={userText}
-        onChange={(e) => setUserText(e.target.value)}
-        style={{
-          position: "absolute",
-          bottom: 10,
-          height: "3rem",
-          width: "90%",
-          border: "1px solid #333",
-          borderRadius: "6px",
-        }}
-      />
+      <form onSubmit={handleSubmitChat}>
+        <input
+          type="text"
+          value={userText}
+          onChange={(e) => setUserText(e.target.value)}
+          style={
+            widgetOpen
+              ? {
+                  position: "absolute",
+                  bottom: 10,
+                  height: "3rem",
+                  width: "90%",
+                  border: "1px solid #c0c0c0",
+                  borderRadius: "6px",
+                  transitionBehavior: "allow-discrete",
+                }
+              : { display: "none", transitionBehavior: "allow-discrete" }
+          }
+        />
+      </form>
     </div>
   );
 }

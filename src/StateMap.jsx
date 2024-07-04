@@ -130,12 +130,11 @@ export default function StateMap() {
       }}
     >
       <ClaudeWidget />
-
       <ComposableMap
         projectionConfig={{
           scale: 6500,
           rotation: [-11, 0, 0],
-          center: [-89.9, 44.6],
+          center: [-90.8, 44.6],
         }}
         style={{
           width: "70vw",
